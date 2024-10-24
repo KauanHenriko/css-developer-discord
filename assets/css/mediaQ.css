@@ -1,0 +1,118 @@
+@media screen and (min-width: 1280px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    header {
+        background: url('../imgs/header-background.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    header #header-content {
+        width: 70%;
+        max-width: 47.3125rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header #header-content h1, header #header-content p {
+        text-align: center;
+    }
+
+    header #header-content h1 {
+        width: 19.5625rem;
+    }
+
+    header #header-content #header-buttons {
+        display: flex;
+    }
+
+    header #header-content #header-buttons button#download {
+        width: 12.8125rem;
+    }
+
+    header #header-content #header-buttons button#web-discord {
+        margin-left: 1rem;
+        width: 17.5625rem;
+    }
+
+    #discord-servers {
+        flex-direction: row;
+        max-width: 60.79rem;
+        margin: auto;
+    }
+
+    #discord-servers #image-discord-servers,
+    #discord-members #discord-members-details #image-discord-members {
+        margin-right: 1rem;
+    }
+
+    #discord-servers #image-discord-servers img,
+    #discord-channel #discord-channel-details #image-discord-channel img,
+    #discord-members #discord-members-details #image-discord-members img {
+        width: 37.9375rem;
+    }
+
+
+    #discord-channel #discord-channel-details {
+        flex-direction: row-reverse;
+    }
+
+    #discord-channel #discord-channel-details,
+    #discord-members #discord-members-details {
+        max-width: 60rem;
+        margin: auto;
+    }
+
+    #discord-channel #discord-channel-details #info-discord-channel,
+    #discord-members #discord-members-details #info-discord-members {
+        width: 21rem;
+    }
+
+    #discord-members #discord-members-details {
+        flex-direction: row;
+    }
+
+    #discord-connection #discord-connection-details {
+        margin: auto;
+    }
+
+    #discord-connection #discord-connection-details #info-discord-connection {
+        max-width: 50.125rem;
+    }
+
+    #discord-connection #discord-connection-details #info-discord-connection h2 {
+        width: 38rem;
+    }
+
+    #discord-connection #discord-connection-details #info-discord-connection h2,
+    #discord-connection #discord-connection-details #info-discord-connection p {
+        text-align: center;
+    }
+
+    #discord-connection #discord-connection-details #image-discord-connection img {
+        width: 49rem;
+        margin: auto;
+    }
+
+    footer svg {
+        width: 14.375rem;
+        height: 3.9375rem;
+    }
+}

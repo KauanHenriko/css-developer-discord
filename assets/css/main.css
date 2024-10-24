@@ -1,0 +1,72 @@
+main {
+    margin: auto;
+ }
+ 
+ #discord-servers {
+    width: 90%;
+    margin: auto;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ 
+ #discord-servers #image-discord-servers,
+ #discord-channel #discord-channel-details #image-discord-channel,
+ #discord-members #discord-members-details #image-discord-members,
+ #discord-connection #discord-connection-details #image-discord-connection {
+    margin-bottom: 1.69rem;
+ }
+ 
+ #discord-servers #image-discord-servers img,
+ #discord-channel #discord-channel-details #image-discord-channel img,
+ #discord-members #discord-members-details #image-discord-members img,
+ #discord-connection #discord-connection-details #image-discord-connection img {
+    width: 100%;
+    margin: auto;
+ }
+ 
+ #discord-servers #info-discord-servers h3,
+ #discord-channel #discord-channel-details #info-discord-channel h3,
+ #discord-connection #discord-connection-details #info-discord-channel h3,
+ #discord-members #discord-members-details #info-discord-members h3 {
+    margin-top: 1rem;
+    margin-bottom: 1.69rem;
+ }
+ 
+ #discord-servers #info-discord-servers p {
+    margin-bottom: 2.5rem;
+ }
+ 
+ #discord-channel {
+    background-color: #F6F6F6;;
+ }
+ 
+ #discord-channel,
+ #discord-members,
+ #discord-connection {
+    width: 100%;
+    padding: 2.5rem 1.5rem;
+ }
+ 
+ #discord-channel #discord-channel-details,
+ #discord-members #discord-members-details,
+ #discord-connection #discord-connection-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+ 
+    width: 90%;
+ }
+ 
+ #discord-connection {
+    background-color: #F6F6F6;
+ }
+ 
+ #discord-connection #discord-connection-details #info-discord-connection h2 {
+    margin-top: 1.69rem;
+    margin-bottom: 1.69rem;
+ }
+ 

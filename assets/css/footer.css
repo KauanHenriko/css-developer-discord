@@ -1,0 +1,14 @@
+footer {
+    background-color: #23272A;
+    padding: 2.5rem 8rem 3.19rem 8rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer svg {
+    width: 10.125rem;
+    height: 2.8125rem;
+}
